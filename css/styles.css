@@ -10289,6 +10289,8 @@ a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .text-black-50 {
