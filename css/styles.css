@@ -10441,7 +10441,8 @@ p {
   color: #446ca8;
 }
 .page-section h3.section-subheading {
-  font-size: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -10944,12 +10945,24 @@ header.masthead .btn {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #446ca8;
+}
+
+section#contact .section-subheading {
+  color: #d15c23;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
