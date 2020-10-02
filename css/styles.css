@@ -10548,7 +10548,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 3rem;
+    height: 6rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10561,7 +10561,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 3rem;
+    height: 6rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
