@@ -527,11 +527,6 @@ mark,
   height: auto;
 }
 
-.img-vertical-centered {
-  display: flex;
-  align-items: center;
-}
-
 .figure {
   display: inline-block;
 }
