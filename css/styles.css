@@ -11024,3 +11024,22 @@ section#contact form#contactForm :-ms-input-placeholder {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.card-header {
+  background-color: var(--orange-apeirelec);
+}
+
+.card-deck {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.card-text {
+  color: #556575;
+  margin-bottom: 1em;
+}
