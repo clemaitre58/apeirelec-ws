@@ -11027,9 +11027,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .card-header {
   background-color: var(--orange-apeirelec);
+  color: whitesmoke;
 }
 
 .card-deck {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-group {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
