@@ -10294,7 +10294,8 @@ a.text-dark:focus {
 }
 
 .text-address {
-  color: var(--light) !important;
+  /* color: var(--light) !important; */
+  color: var(--dark) !important;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -10947,7 +10948,8 @@ header.masthead .btn {
 }
 
 section#contact {
-  background-color: #5b8ca8;
+  /* background-color: #5b8ca8; */
+  background-color: #ffffff;
   /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
@@ -11052,4 +11054,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #556575;
   margin-bottom: 1em;
   text-align: justify;
+}
+
+.card-text-mini-card {
+  color: #556575;
+  margin-bottom: 1em;
+  text-align: left;
 }
