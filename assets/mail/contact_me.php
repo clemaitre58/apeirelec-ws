@@ -7,14 +7,19 @@ if(empty($_POST['name'])      ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
    echo "No arguments Provided!";
-   return false;
+   // return false;
    }
 
    
-$name = strip_tags(htmlspecialchars($_POST['name']));
+/* $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
-$message = strip_tags(htmlspecialchars($_POST['message']));
+$message = strip_tags(htmlspecialchars($_POST['message'])); */
+
+$name = "Cédric Lemaître";
+$email_address = "contact@apeirelec.fr";
+$phone = "0672715584";
+$message = "test";
 
 echo("test");
 echo($name);
@@ -28,6 +33,12 @@ $email_subject = "Website Contact Form:  $name";
 $email_body = "Nouveau message depuis le formulaire de contact.\n\n"."Voici les détails de ce message:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@apeirlec.fr\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
-mail($to,$email_subject,$email_body,$headers);
+$CR_Mail = @mail($to,$email_subject,$email_body,$headers);
+if ($CR_Mail === FALSE) {
+   echo " ### CR_Mail=$CR_Mail - Erreur envoi mail <br> \n";
+} else {
+   echo " *** CR_Mail=$CR_Mail - Mail envoyé<br> \n";
+}
+
 return true;         
 ?>
