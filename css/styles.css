@@ -2117,7 +2117,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #212529;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -10294,10 +10294,16 @@ a.text-dark:focus {
 }
 
 .text-address {
-  /* color: var(--light) !important; */
-  color: var(--dark) !important;
+  color: #556575 !important;
   text-align: justify;
   text-justify: inter-word;
+  font-style: normal !important;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+.p-compact {
+  line-height: 0.7;
 }
 
 .text-black-50 {
