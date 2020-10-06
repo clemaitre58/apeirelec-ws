@@ -17,7 +17,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message'])); */
 
 $name = "Cédric Lemaître";
-$email_address = "contact@apeirelec.fr";
+$email_address = "c.lemaitre@apeira-technologies.fr";
 $phone = "0672715584";
 $message = "test";
 
