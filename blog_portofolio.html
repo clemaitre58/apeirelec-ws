@@ -101,7 +101,7 @@
               <p class="card-text-mini-card">
                 Comment trouver le modèle adapté?
               </p>
-              <a class="my-3" href="#bornes_irve">
+              <a class="my-3" href="blog_post_01.html">
                 Cliquez ici pour en savoir plus
                 <i class="fas fa-arrow-circle-right"></i>
               </a>
@@ -110,18 +110,9 @@
         </div>
       </div>
     </section>
+    <div id="files"></div>
     <!-- Footer-->
-    <footer class="footer py-4">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-lg-left">
-            Copyright © Apeira Technologies 2020
-          </div>
-          <div class="col-lg-4 my-3 my-lg-0"></div>
-          <div class="col-lg-4 text-lg-right"></div>
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
     <!-- Bootstrap core JS-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
@@ -140,6 +131,12 @@
     <!-- Show all blog posts-->
     <script>
       filterSelection("all");
+    </script>
+    <!-- Load footer-->
+    <script>
+      $(document).ready(function () {
+        $("#footer").load("templates/footer.html");
+      });
     </script>
   </body>
 </html>

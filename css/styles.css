@@ -11087,12 +11087,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: none; /* Hide columns by default */
 }
 
-/* Clear floats after rows */
+/* Clear floats after rows
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* The "show" class is added to the filtered elements */
 .show {
