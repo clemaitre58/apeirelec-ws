@@ -11110,3 +11110,11 @@ margin-left: auto;
 margin-right: auto;
 width: 90%;
 }
+
+figcaption {
+  background-color: white;
+  color: var(--orange-apeirelec);
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+}
