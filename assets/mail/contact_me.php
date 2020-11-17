@@ -16,7 +16,7 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message'])); 
 
-/*$name = "Cédric Lemaître";
+$name = "Cédric Lemaître";
 $email_address = "c.lemaitre@apeira-technologies.fr";
 $phone = "0672715584";
 $message = "test";
@@ -25,7 +25,7 @@ echo("test");
 echo($name);
 echo($email_address);
 echo($phone);
-echo($message);*/
+echo($message);
    
 // Create the email and send the message
 $to = 'contact@apeirelec.fr'; // Add your email address in between the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
