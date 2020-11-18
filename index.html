@@ -516,7 +516,93 @@
       </div>
     </section>
     <!-- Contact-->
-    <section class="page-section" id="contact"></section>
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Contactez-nous</h2>
+          <img
+            class="img-fluid"
+            src="imgs/ecriture_apeirelec.png"
+            alt="Logo HTMLw3"
+            style="
+              z-index: 2;
+              position: relative;
+              margin-bottom: 0.8em;
+              margin-top: 3em;
+            "
+          />
+      
+          <h3 class="section-subheading text-address">
+            <strong>
+              <p class="p-compact">40 rue Jean Jaurès</p>
+              <p class="p-compact">71 200 Le Creusot</p>
+              <p class="p-compact">06 72 71 55 84</p>
+            </strong>
+          </h3>
+        </div>
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <div class="row align-items-stretch mb-5">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Nom *"
+                  required="requis"
+                  data-validation-required-message="Saisissez votre nom."
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="Email *"
+                  required="required"
+                  data-validation-required-message="Saisissez votre adresse email ."
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group mb-md-0">
+                <input
+                  class="form-control"
+                  id="phone"
+                  type="tel"
+                  placeholder="Numéro de téléphone *"
+                  required="required"
+                  data-validation-required-message="Saisissez voutre numéro de téléphone."
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group form-group-textarea mb-md-0">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  placeholder="Votre message *"
+                  required="required"
+                  data-validation-required-message="Saisissez votre message."
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button
+              class="btn btn-primary btn-xl text-uppercase"
+              id="sendMessageButton"
+              type="submit"
+            >
+              Envoyer votre message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
     <!-- Footer-->
     <div id="footer"></div>
     <!-- Bootstrap core JS-->
@@ -532,12 +618,6 @@
     <script>
       $(document).ready(function () {
         $("#navbar-container").load("templates/navbar.html");
-      });
-    </script>
-    <!-- Load contact-->
-    <script>
-      $(document).ready(function () {
-        $("#contact").load("templates/contact.html");
       });
     </script>
     <!-- Load footer-->
