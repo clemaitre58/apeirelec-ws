@@ -44,7 +44,91 @@
   </head>
   <body id="page-top">
     <!-- Navigation-->
-    <div id="navbar-container"></div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top flex-column"
+      id="mainNav"
+    >
+      <div class="w-100 d-flex navbar-white-background">
+        <a class="navbar-brand mx-md-auto" href="#page-top">
+          <img src="imgs/logo_apeirelec.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler align-self-center ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#bornes_irve"
+              >Bornes de charge IRVE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#mise_en_secu"
+              >Mise en sécurité</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#domotique"
+              >Domotique</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#depannage"
+              >Dépannage</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#renovation"
+              >Rénovation</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#reseau_com"
+              >Réseaux</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/index.html#contact"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://apeirelec.fr/blog_portfolio.html"
+              >Blog</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- Masthead-->
     <header class="masthead">
       <div class="container">
@@ -616,12 +700,6 @@
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
-    <!-- Load navbar-->
-    <script>
-      $(document).ready(function () {
-        $("#navbar-container").load("templates/navbar.html");
-      });
-    </script>
     <!-- Load footer-->
     <script>
       $(document).ready(function () {
